@@ -1,0 +1,52 @@
+{
+  "_comment": "Sample orders for the demo. Dates like \"now-5d\" are resolved relative to today. Real use: ORDERS_SOURCE=shopify or ORDERS_API_URL.",
+  "orders": [
+    {
+      "order_number": "1001", "email": "emma.wilson@example.com", "customer_name": "Emma Wilson",
+      "status": "shipped", "carrier": "UPS", "tracking_number": "1Z999AA10123456784",
+      "ordered_at": "now-4d", "shipped_at": "now-2d", "estimated_delivery": "now+2d",
+      "total": 64.5, "currency": "USD", "items": [{ "name": "Merino Hiking Socks (3-pack)", "qty": 1, "price": 29.5 }, { "name": "Trail Cap", "qty": 1, "price": 35 }]
+    },
+    {
+      "order_number": "1002", "email": "liam.chen@example.com", "customer_name": "Liam Chen",
+      "status": "delivered", "carrier": "USPS", "tracking_number": "9400100000000000000001",
+      "ordered_at": "now-16d", "shipped_at": "now-14d", "delivered_at": "now-10d",
+      "total": 89, "currency": "USD", "items": [{ "name": "Alpine Fleece Jacket (M)", "qty": 1, "price": 89 }]
+    },
+    {
+      "order_number": "1003", "email": "sofia.garcia@example.com", "customer_name": "Sofía García",
+      "status": "shipped", "carrier": "DHL", "tracking_number": "JD014600006281234567",
+      "ordered_at": "now-12d", "shipped_at": "now-10d", "estimated_delivery": "now-3d",
+      "total": 142, "currency": "EUR", "items": [{ "name": "Waterproof Hiking Boots (39)", "qty": 1, "price": 142 }]
+    },
+    {
+      "order_number": "1004", "email": "noah.brown@example.com", "customer_name": "Noah Brown",
+      "status": "delivered", "carrier": "UPS", "tracking_number": "1Z999AA10123456999",
+      "ordered_at": "now-52d", "shipped_at": "now-50d", "delivered_at": "now-45d",
+      "total": 119, "currency": "USD", "items": [{ "name": "Ultralight Daypack 22L", "qty": 1, "price": 119 }]
+    },
+    {
+      "order_number": "1005", "email": "olivia.martin@example.com", "customer_name": "Olivia Martin",
+      "status": "processing", "ordered_at": "now-0d",
+      "total": 58, "currency": "USD", "items": [{ "name": "Camp Mug Set", "qty": 2, "price": 29 }]
+    },
+    {
+      "order_number": "1006", "email": "james.taylor@example.com", "customer_name": "James Taylor",
+      "status": "delivered", "carrier": "UPS", "tracking_number": "1Z999AA10123457000",
+      "ordered_at": "now-9d", "shipped_at": "now-7d", "delivered_at": "now-4d",
+      "total": 420, "currency": "USD", "items": [{ "name": "2-Person Backpacking Tent", "qty": 1, "price": 420 }]
+    },
+    {
+      "order_number": "1007", "email": "amira.haddad@example.com", "customer_name": "Amira Haddad",
+      "status": "delivered", "carrier": "DHL", "tracking_number": "JD014600006289999999",
+      "ordered_at": "now-8d", "shipped_at": "now-6d", "delivered_at": "now-2d",
+      "total": 76, "currency": "USD", "items": [{ "name": "Insulated Water Bottle", "qty": 2, "price": 38 }]
+    },
+    {
+      "order_number": "1008", "email": "lucas.dubois@example.com", "customer_name": "Lucas Dubois",
+      "status": "delivered", "carrier": "DHL", "tracking_number": "JD014600006281111111",
+      "ordered_at": "now-12d", "shipped_at": "now-10d", "delivered_at": "now-6d",
+      "total": 45, "currency": "EUR", "items": [{ "name": "Clearance Rain Poncho", "qty": 1, "price": 45, "final_sale": true }]
+    }
+  ]
+}
